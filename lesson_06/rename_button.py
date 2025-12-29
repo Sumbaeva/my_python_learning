@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-def rename_button_example():
+def rename_button_test():
     driver = webdriver.Chrome()
     try:
         driver.get("http://uitestingplayground.com/textinput")
@@ -28,4 +28,4 @@ def rename_button_example():
 
 
 if __name__ == "__main__":
-    rename_button_example()
+    rename_button_test()

@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-def ajax_button_example():
+def ajax_button_test():
     driver = webdriver.Chrome()
     try:
         driver.get("http://uitestingplayground.com/ajax")
@@ -28,4 +28,4 @@ def ajax_button_example():
 
 
 if __name__ == "__main__":
-    ajax_button_example()
+    ajax_button_test()

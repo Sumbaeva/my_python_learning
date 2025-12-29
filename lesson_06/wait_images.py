@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 
-def wait_images_example():
+def wait_images_test():
     driver = webdriver.Chrome()
     try:
         driver.get(
@@ -53,4 +53,4 @@ def wait_images_example():
 
 
 if __name__ == "__main__":
-    wait_images_example()
+    wait_images_test()
